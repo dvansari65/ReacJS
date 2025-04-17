@@ -1,0 +1,52 @@
+.programs{
+    margin:80px auto;
+    width:90%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+
+.program{
+    flex-basis:30%;
+    position: relative;
+   height: 300px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius:10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.program img{
+    width: 80%;
+    border-radius:10px;
+    display: block;
+   
+}
+ .caption{
+    border-radius:10px;
+    color: rgb(243, 247, 250);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+ }
+ .program:hover .caption{
+    opacity: 1;
+   
+ }
+ .program:hover{
+    background-color: #ffffff;
+    opacity: 0.6;
+ }
+ 
+ 
